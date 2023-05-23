@@ -40,22 +40,28 @@ const Main = () => {
           {expanded && (
             <div className="disclaimer-content">
               <div className="expanded flex flex-col border-t border-white">
+
                 <div className="flex h-14 items-center">
                   <span className='text-white'>We're working on a new service to offer you returned online goods at a discount near you.</span>
                 </div>
+
                 <div className="plans  justify-between	 border-t border-white flex p-2">
-                  <div className="mx-20">
-                    <span className='text-white text-[16px]'>CURRENTLY</span>
-                    <ul>
-                      <li className='text-white text-[14px]'>1. Very limited assortment of items that we resell</li>
-                      <li className='text-white text-[14px]'>2. All sorts of product categories</li>
-                      <li className='text-white text-[14px]'>3. Focus on testing the ordering and pick-up experience</li>
-                    </ul>
+                  <div className="one">
+                    <div className="mx-20">
+                      <span className='text-white text-[16px]'>CURRENTLY</span>
+                      <ul>
+                        <li className='text-white text-[14px]'>1. Very limited assortment of items that we resell</li>
+                        <li className='text-white text-[14px]'>2. All sorts of product categories</li>
+                        <li className='text-white text-[14px]'>3. Focus on testing the ordering and pick-up experience</li>
+                      </ul>
+                    </div>
                   </div>
-                  <div className="img flex flex-col justify-evenly	mt-5">
-                    <img src='Arrow 1.svg' className='mr-10 arr' alt="Arrow" />
-                    <img src='Arrow 1.svg' className='mr-10 arr' alt="Arrow" />
-                    <img src='Arrow 1.svg' className='mr-10 arr' alt="Arrow" />
+                  <div className="two">
+                    <div className="img flex flex-col justify-evenly	mt-5">
+                      <img src='Arrow 1.svg' className='mr-10 arr' alt="Arrow" />
+                      <img src='Arrow 1.svg' className='mr-10 arr' alt="Arrow" />
+                      <img src='Arrow 1.svg' className='mr-10 arr' alt="Arrow" />
+                    </div>
                   </div>
                   <div className="mx-20">
                     <span className='text-white text-[16px]'>FUTURE</span>
