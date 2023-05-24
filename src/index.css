@@ -39,7 +39,7 @@
 }
 
 .expanded {
-    height: 50%;
+    height: auto;
 }
 
 .disclaimer-content {
