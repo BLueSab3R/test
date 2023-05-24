@@ -4,8 +4,8 @@ const Header = () => {
   return (
     <div className='header flex justify-between items-baseline border-b-2 border-black'>
       <div className="logo mt-6 flex mx-20">
-        <img src='Logomark.svg' className='h-12 mt-2.5 mr-2' />
-        <img src='VooDooTest.svg' />
+        <img src='./images/Logomark.svg' className='h-12 mt-2.5 mr-2' />
+        <img src='./images/VooDooTest.svg' />
 
       </div>
       <div className="navigation text-[21px] flex mr-20">
