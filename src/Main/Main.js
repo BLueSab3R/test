@@ -57,7 +57,7 @@ const Main = () => {
                     </div>
                   </div>
                   <div className="two">
-                    <div className="img flex flex-col justify-evenly	mt-5">
+                    <div className="img flex flex-col justify-evenly	mt-10">
                       <img src='./images/Arrow 1.svg' className='mr-10 arr' alt="Arrow" />
                       <img src='./images/Arrow 1.svg' className='mr-10 arr' alt="Arrow" />
                       <img src='./images/Arrow 1.svg' className='mr-10 arr' alt="Arrow" />
