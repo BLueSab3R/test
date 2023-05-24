@@ -28,13 +28,13 @@ const Main = () => {
       <div className='flex main justify-center items-center flex-col p-12 border-b border-black'>
         <div className={`disclaimer flex flex-col mt-14 items-center   border rounded border-black cursor-pointer ${expanded ? 'expanded' : ''}`} onClick={handleExpand}>
           <div className="flex prev items-center justify-between  ml-3 gap-10px leading-[4rem]">
-            <img src='alert-circle.svg' alt="Alert Circle" />
+            <img src='./images/alert-circle.svg' alt="Alert Circle" />
             <span className='text-white mx-2'>ALPHA</span>
             <div className="text mx-20">
               <span className='text-white text-center imp-info'>Important info regarding our service</span>
             </div>
             <div className="flex items-center ml-auto mr-4">
-              <img src='chevron-down.svg' alt="Chevron Down" />
+              <img src='./images/chevron-down.svg' alt="Chevron Down" />
             </div>
           </div>
           {expanded && (
@@ -58,9 +58,9 @@ const Main = () => {
                   </div>
                   <div className="two">
                     <div className="img flex flex-col justify-evenly	mt-5">
-                      <img src='Arrow 1.svg' className='mr-10 arr' alt="Arrow" />
-                      <img src='Arrow 1.svg' className='mr-10 arr' alt="Arrow" />
-                      <img src='Arrow 1.svg' className='mr-10 arr' alt="Arrow" />
+                      <img src='./images/Arrow 1.svg' className='mr-10 arr' alt="Arrow" />
+                      <img src='./images/Arrow 1.svg' className='mr-10 arr' alt="Arrow" />
+                      <img src='./images/Arrow 1.svg' className='mr-10 arr' alt="Arrow" />
                     </div>
                   </div>
                   <div className="mx-20">

@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <div className='footer font-spaceMono font-bold bg-white flex justify-around items-center'>
-      <img src='Logomark.svg' className='logoMark'></img>
+      <img src='./images/Logomark.svg' className='logoMark' />
       <div className="footer-links">
         <ul>
           <li className='text-black'>FAQ</li>
